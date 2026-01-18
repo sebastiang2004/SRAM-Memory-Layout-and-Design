@@ -1,5 +1,5 @@
 In this document I’ll show the required steps I took for designing SRAM circuit for each block circuit in Cadence Virtuoso 6.17
-
+[NOTES]
 Common SRAM array architecture:
 
 <img src="images/media/image1.png" style="width:5.28199in;height:4.30268in" />
@@ -263,6 +263,10 @@ However,increasing the width of the pass gate transistors threatens the stabilit
 Fig 12.Experimental set-up for extracting the write static noise margin
 
 During write operation M1(or M3) and M5(or M6) form a resistive voltage divider pulls Q below trip-point of inverter 2(INV2),a successful write operation occurs.The write ability of a SRAM bit cell can be gauged by the write SNM.
+
+Bibliography
+
+[1] Robust SRAM Deisgn https://picture.iczhiku.com/resource/eetop/wHkHQSDfgSqQfbVV.pdf
 
 The write SNM is extracted by a combination of read voltage transfer characteristics (VTC) and the write VTC.
 
