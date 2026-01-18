@@ -264,7 +264,7 @@ Fig 12.Experimental set-up for extracting the write static noise margin
 
 During write operation M1(or M3) and M5(or M6) form a resistive voltage divider pulls Q below trip-point of inverter 2(INV2),a successful write operation occurs.The write ability of a SRAM bit cell can be gauged by the write SNM.
 
-Bibliography
+#Bibliography
 
 [1] Robust SRAM Deisgn https://picture.iczhiku.com/resource/eetop/wHkHQSDfgSqQfbVV.pdf
 
